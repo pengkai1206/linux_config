@@ -5,9 +5,8 @@ Linux 搭建 vpn 服务（pptpd协议）
 [Jarett's Blog](https://www.nigesb.com/setup-your-own-vpn-with-pptp.html)
 
 ## 1、安装 pptpd
-Ubuntu 系统：sudo apt-get install pptpd
-CentOS 系统：sudo yum -y install pptpd
-
+Ubuntu 系统：sudo apt-get install pptpd  
+CentOS 系统：sudo yum -y install pptpd  
 注：如果是 root 用户，则可以去掉 sudo 不写。
 
 ## 2、配置 IP 地址
@@ -19,4 +18,4 @@ remoteip 10.0.0.100-200
 
 ## 3、配置客户端 DNS
 首先确认配置。查看 /etc/pptpd.conf 中指定的 option 文件。我的如下：  
-![][dns-option.jpg]
+![](dns-option.jpg)
