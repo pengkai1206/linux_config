@@ -18,4 +18,4 @@ remoteip 10.0.0.100-200
 
 ## 3、配置客户端 DNS
 首先确认配置。查看 /etc/pptpd.conf 中指定的 option 文件。我的如下：  
-![](dns-option.jpg)
+![](pic/dns-option.jpg)
